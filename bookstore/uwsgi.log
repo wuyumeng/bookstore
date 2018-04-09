@@ -1,0 +1,88 @@
+*** Starting uWSGI 2.0.15 (64bit) on [Sun Apr  8 19:31:22 2018] ***
+compiled with version: 5.4.0 20160609 on 02 April 2018 08:42:02
+os: Linux-4.13.0-38-generic #43~16.04.1-Ubuntu SMP Wed Mar 14 17:48:43 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/xiaoyu/work/bookstore
+writing pidfile to uwsgi.pid
+detected binary path: /home/xiaoyu/bookstore/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/xiaoyu/work/bookstore/bookstore
+your processes number limit is 7677
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:9001 fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/xiaoyu/bookstore
+Python main interpreter initialized at 0xcbde90
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415280 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+unable to load app 0 (mountpoint='') (callable not found or import error)
+failed to open python file bookstore/wsgi.py
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 15711)
+spawned uWSGI worker 1 (pid: 15716, cores: 2)
+spawned uWSGI worker 2 (pid: 15717, cores: 2)
+spawned uWSGI worker 3 (pid: 15718, cores: 2)
+spawned uWSGI worker 4 (pid: 15719, cores: 2)
+*** Starting uWSGI 2.0.15 (64bit) on [Sun Apr  8 19:47:52 2018] ***
+compiled with version: 5.4.0 20160609 on 02 April 2018 08:42:02
+os: Linux-4.13.0-38-generic #43~16.04.1-Ubuntu SMP Wed Mar 14 17:48:43 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/xiaoyu/work/bookstore
+writing pidfile to uwsgi.pid
+detected binary path: /home/xiaoyu/bookstore/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/xiaoyu/work/bookstore/bookstore
+your processes number limit is 7677
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+...brutally killing workers...
+Gracefully killing worker 2 (pid: 15717)...
+Gracefully killing worker 1 (pid: 15716)...
+Gracefully killing worker 3 (pid: 15718)...
+Gracefully killing worker 4 (pid: 15719)...
+worker 1 buried after 3 seconds
+worker 2 buried after 3 seconds
+worker 3 buried after 3 seconds
+worker 4 buried after 3 seconds
+binary reloading uWSGI...
+chdir() to /home/xiaoyu/work/bookstore
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (127.0.0.1:9001)
+running /home/xiaoyu/bookstore/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.15 (64bit) on [Sun Apr  8 19:51:14 2018] ***
+compiled with version: 5.4.0 20160609 on 02 April 2018 08:42:02
+os: Linux-4.13.0-38-generic #43~16.04.1-Ubuntu SMP Wed Mar 14 17:48:43 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/xiaoyu/work/bookstore
+detected binary path: /home/xiaoyu/bookstore/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/xiaoyu/work/bookstore/bookstore
+your processes number limit is 7677
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8001).
+bind(): Address already in use [core/socket.c line 769]
